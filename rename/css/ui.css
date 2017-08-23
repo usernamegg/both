@@ -1,0 +1,159 @@
+/* CSS Document */
+body{background:#ff;}
+#nav{background: #FFFFFF !important;}
+*{font-family:'微软雅黑';font-size:12px;}
+h3{margin-top: 30px !important;}
+.item ul li:hover{background-color: #F1F1F1;}
+/*---nav---*/
+.nav_r span a{ 
+	font-size:18px;
+	color:#777;
+}
+.borrow ul li{ 
+	background:#333;
+} 
+.borrow ul li a{
+	color:#fff;
+}
+
+/*---banner---*/
+#myCarousel a img{
+	margin:45% auto;
+	}
+.carousel-indicators li,.carousel-indicators li.active{
+	width:15px;
+	height:15px;
+	background-color:transparent;
+	border:2px solid #fff;
+	margin:0px 15px;
+}
+.carousel-indicators li.active{
+	background-color:#fff;
+	border:2px solid #fff;
+}
+
+/*andriod入门*/
+.modular li {	
+	margin:50px 0px 30px 0px;
+}
+.modular li div.content{
+	width:100%;
+	min-height:320px;
+	border:1px solid #ccc;
+	border-radius:3px;
+	background:#fff;
+}
+.modular li  img{
+	margin:0px auto;
+	top:105px;
+	left:18%;
+	position: absolute;
+	-webkit-animation: open 2s infinite;
+	animation: open 2s infinite;
+}
+.modular li p{
+	font-size:16px;
+	text-align:justify;
+	line-height:25px;
+	padding:0px 10px 20px 10px;
+}
+
+/*安卓课程规划*/
+.modular1 li div.title_content .title{
+	width:100%;
+	height:162px;
+	background:url(../img/modular_bg1.jpg) center center;
+	background-size:cover;
+	border-radius:5px 5px 0px 0px;
+	line-height:162px;
+	font-size:30px;
+	color:#fff;
+	cursor:pointer;
+}
+.modular1 > li{
+	margin-bottom:30px;
+}
+.border_none{border:none!important;}
+.modular1 li div.item ul li,.modular1 li div.item ul li a{
+	display:block;
+	width:100%;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	font-size:20px;
+	margin:0px;
+}
+.modular1 li div.item ul li a{
+	border:1px solid #ccc;
+	border-top:none;
+}
+.modular1 > li:nth-child(4){
+	clear:both;
+}
+.modular1 li div.content ul{
+	width:100%;
+	border-radius:0px 0px 5px 5px;
+	background:#fff;
+}
+.modular li div.item ul li:first-child  a{
+	background:#f5f5f5;
+	font-size:22px;
+}
+.modular li div.item ul li:last-child  a{
+	border-radius:0px 0px 5px 5px;
+}
+.modular1 li div.title_content .title2{
+	background:url(../img/modular_bg2.jpg) center center;
+	background-size:cover;
+}
+.modular1 li div.title_content .title3{
+	background:url(../img/modular_bg3.jpg) center center;
+	background-size:cover;
+}
+.modular1 li div.title_content .title4{
+	background:url(../img/modular_bg4.jpg) center center;
+	background-size:cover;
+}
+.modular1 li div.title_content .title5{
+	background:url(../img/modular_bg5.png) center center;
+	background-size:cover;
+}
+.style1{
+	line-height:25px!important;
+	padding-top:10px;
+}
+.modular li div.title_content{
+	min-height:162px!important;
+}
+.modular1 li div.item{
+	display:none;
+}
+
+
+	
+@media (max-width: 768px) {
+	.modular li {margin:10px 0px;}
+	.modular1 li div.content .title,.modular li div.title_content{height:120px;line-height:120px;}
+	.modular li  img{left:25%;}
+	}
+@media (min-width: 320px) and (max-width: 375px) {
+	.modular1 li div.content ul li a{font-size:16px;}
+	.modular li  img{left:22%;}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	.modular1 li div.content ul li a{font-size:18px;}
+}	
+@media (min-width: 992px) {
+	}
+@media (max-width:1140px){
+	
+	}
+
+
+
+
+
+
+
+
+

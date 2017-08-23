@@ -1,0 +1,24 @@
+body{background: #FFFFFF !important;}
+.item{background-color: #ecf0f1;padding: 10px 0px;}
+.item a{font-size: 12px;}
+.nav_r span a{color:#8e9598;}
+.borrow ul li {
+    background: #8e9091;
+}
+.borrow ul li a{color: #FFFFFF;}
+.borrow ul li a:hover {background:#999999 !important;color: #6dcd51;}
+.content{margin-top: 100px;}
+.content ul{margin-bottom:30px;}
+.mail,.phone,.address{background:url(../img/mail.png) no-repeat left center;padding-left:30px; margin-top: 20px;color:#757f82}
+.phone{background:url(../img/phone.png) no-repeat left center;}
+.address{background:url(../img/address.png) no-repeat left center;}
+.contact{margin: 40px 0px 0px 15px;white-space: nowrap !important;border-bottom: 1px solid #e9e9e9;padding-bottom:5px;padding-left: 0px !important;}
+.footer{ 
+	position: fixed;
+	bottom:0px;
+	left: 0;
+	width:100%;
+	height:60px;
+	background:#030307;
+	z-index:30;
+}

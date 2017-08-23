@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<head>
+<html>
+<meta charset="utf-8">
+<!-- 360浏览器支持此 <meta> 标签。希望更多国内浏览器尽快采取行动、尽快进入高速时代！ -->
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keyword" content="">
+<meta name="description" content="">
+<meta name="full-screen" content="yes">
+<meta name="x5-fullscreen" content="true">
+<meta name="browsermode" content="application">
+<meta name="x5-page-mode" content="app">
+<meta name="apple-mobile-web-app-title" content="机锋">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.3.3.6.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/ios.css"/>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/echarts.js"></script>
+<script src="js/html5shiv.js_"></script>
+
+
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+<title>IOS</title>
+</head>
+
+<body>
+
+<!---nav--->
+<nav id="nav">
+	<div class="container">
+    <!---sm--->
+    	<div class="row hidden-xs">
+        	<div class="col-sm-3"><a href=""><img src="img/logo_pc.png" class="img-responsive logo"/></a></div>
+            <div class="col-sm-9 text-right nav_r">           	
+                <span><a href="#">首页</a></span>
+                <span class="borrow borrow_border">
+                	<a href="#" class="title">关与我们</a>
+                    <ul class="list-unstyled text-center">
+                    	 <li><a href="#">公司简介</a></li>
+                         <li><a href="#">联系我们</a></li>  
+                    </ul>
+                </span>
+				<span class="borrow borrow_border">
+                	<a href="#" class="title">课程简介</a>
+                    <ul class="list-unstyled text-center">
+						<li><a href="">安卓</a></li>
+						<li><a href="#">IOS</a></li>
+						<li><a href="">Java</a></li>
+						<li><a href="#">UI</a></li>
+						<li><a href="#">Web前端</a></li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    <!---xs nav--->
+    	<div class="row visible-xs nav_xs">
+        	<div class="col-xs-3"><img src="img/logo.png" class="img-responsive logo" width="84" height="40"/></div>
+            <div class="col-xs-5 col-xs-offset-4 text-right button">
+            	<div class="row">
+                	<div class="glyphicon glyphicon-align-justify fz24 white"></div>
+                </div>
+            </div>
+            <div class="button_text pd0">
+            	<div class="text-center">
+					<div class="col-xs-12"><a href="#" class="fz18">首页</a></div>
+					<div class="col-xs-12"><a href="#" class="fz18">关于我们</a></div>
+					<div class="col-xs-12"><a href="#" class="fz18">公司简介</a></div>
+                    <div class="col-xs-12"><a href="#" class="fz18">安卓课程</a></div>
+                    <div class="col-xs-12"><a href="#" class="fz18">IOS课程</a></div>
+                    <div class="col-xs-12"><a href="#" class="fz18">Java</a></div>
+                    <div class="col-xs-12"><a href="#" class="fz18">UI</a></div> 
+                    <div class="col-xs-12"><a href="#" class="fz18">前端</a></div>
+            	</div>
+            </div>          
+        </div>
+    </div>
+</nav>
+
+<!---banner--->
+<div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  
+  <div class="carousel-inner">
+    <div class="active item"><img src="img/ios_banner1.jpg" class="img-responsive"/></div>
+    <div class="item"><img src="img/ios_banner2.jpg" class="img-responsive"/></div>
+    <div class="item"><img src="img/ios_banner3.jpg" class="img-responsive"/></div>
+  </div>
+  <div class="container">
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+  </div>
+</div>
+
+<!-- ios数据表 -->
+<div class="container ios_content hidden-xs">
+	<ul class="list-unstyled">
+		<li class="col-sm-4">
+			<img src="img/ios_ico1_active.png" class="img-responsive center-block"/>
+			<h4 class="text-center">职位需求</h4>
+		</li>
+		<li class="col-sm-4">
+			<img src="img/ios_ico2.png" class="img-responsive center-block"/>
+			<h4 class="text-center">就业薪资</h4>
+		</li>
+		<li class="col-sm-4">
+			<img src="img/ios_ico3.png" class="img-responsive center-block"/>
+			<h4 class="text-center">价值程度</h4>
+		</li>
+	</ul>
+	
+	<div class="container requirement on pd0">
+		<div class="col-sm-4">	
+			<div class="brokenLine">
+				<div class="chart">
+					<img src="img/require_bj.png" class="img-responsive center-block"/>
+				</div>
+				<h5 class="text-center">2016年北京地区<br />1-9月份ios招聘需求和简历库情况</h5>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="brokenLine">
+				<div class="chart">
+					<img src="img/require_sh.png" class="img-responsive center-block"/>
+				</div>
+				<h5 class="text-center">2016年上海地区<br />1-9月份ios招聘需求和简历库情况</h5>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="brokenLine">
+				<div class="chart">
+					<img src="img/require_sz.png" class="img-responsive center-block"/>
+				</div>
+				<h5 class="text-center">2016年深圳地区<br />1-9月份ios招聘需求和简历库情况</h5>
+			</div>
+		</div>
+	</div>
+	<div class="container requirement">
+		<div class="col-sm-10 col-sm-offset-1">
+			<div class="ios_pay">
+				<div class="chart chart1">
+					<img src="img/pay_pic.png" class="img-responsive center-block"/>
+				</div>
+				<h5 class="text-center">北京iOS开发工程师 平均薪酬（按iOS开发工程师相关职位薪酬进行统计）</h5>
+			</div>
+		</div>
+	</div>
+	<div class="container requirement">
+		<div class="col-sm-10 col-sm-offset-1">
+			<div class="">
+				<div class="chart chart1">
+					<img src="img/value_pic.png" class="img-responsive center-block"/>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- xs 数据表 -->
+<div class="container-fluid pd0 ios_content visible-xs">
+		<div class="value_xs require_xs">
+			<div class="col-xs-12">
+				<img src="img/ios_ico1_active.png" class="img-responsive center-block"/>
+				<h4 class="text-center">职位需求</h4>
+			</div>
+			<div class="col-xs-12">	
+				<img src="img/require_bj.png" class="img-responsive center-block"/>
+				<h5 class="text-center">2016年北京地区<br />1-9月份ios招聘需求和简历库情况</h5>
+			</div>
+			<div class="col-xs-12 mt5">
+				<img src="img/require_sh.png" class="img-responsive center-block"/>
+				<h5 class="text-center">2016年上海地区<br />1-9月份ios招聘需求和简历库情况</h5>
+			</div>
+			<div class="col-xs-12 mt5">
+				<img src="img/require_sz.png" class="img-responsive center-block"/>
+				<h5 class="text-center">2016年深圳地区<br />1-9月份ios招聘需求和简历库情况</h5>
+			</div>
+		</div>
+		<div class="value_xs">
+			<div class="col-xs-12">
+				<img src="img/ios_ico3_active.png" class="img-responsive center-block"/>
+				<h4 class="text-center">价值程度</h4>
+			</div>
+			<div class="col-xs-12">
+				<img src="img/value_pic.png" class="img-responsive center-block"/>
+			</div>
+		</div>
+		<div class="value_xs pay_xs">
+			<div class="col-xs-12">
+				<img src="img/ios_ico2_active.png" class="img-responsive center-block"/>
+				<h4 class="text-center">就业薪资</h4>
+			</div>
+			<div class="col-xs-12">
+				<img src="img/pay_pic.png" class="img-responsive center-block"/>
+			</div>
+		</div>
+</div>
+
+
+
+
+
+
+<!-- 安卓课程规划 -->
+<div class="container">
+	<h1 class="text-center hidden-xs mt5">ios课程规划</h1>
+	<h4 class="text-center visible-xs mt5">一场征途的自我修养-iOS课程体系</h4>
+	<ul class="list-unstyled modular1">
+		<li class="col-md-4 col-xs-12">
+			<div class="content border_none title_content">
+				<div class="title title1 text-center">阶段一</div>
+			</div>
+			<div class="content border_none item">
+				<ul class="list-unstyled">
+					<li><a href="">Objective-C知识</a></li>
+					<li><a href="">1.OC基本语法</a></li>
+					<li><a href="">2.面向对象思想及概念</a></li>
+					<li><a href="">3.类与方法</a></li>
+					<li><a href="">4.继承、封装、多态</a></li>
+					<li><a href="">5.关键字、字符串、数组、字典</a></li>
+					<li><a href="">6.内存管理、ARC、ＭＲＣ混编</a></li>
+					<li><a href="">7.分类（类目）练习</a></li>
+					<li><a href="">8.Block知识</a></li>
+					<li><a href="">9.文件处理</a></li>
+					<li><a href="">10.综合练习</a></li>
+				</ul>
+			<div>
+		</li>
+		<li class="col-md-4 col-xs-12">
+			<div class="content border_none title_content">
+				<div class="title title2 text-center">阶段二</div>
+			</div>
+			<div class="content border_none item">
+				<ul class="list-unstyled">
+					<li><a href="">UI基础知识</a></li>
+					<li><a href="">1.基础控件的学习</a></li>
+					<li><a href="">2.storyboard、xib的使用</a></li>
+					<li><a href="">3.view与viewController的关系</a></li>
+					<li><a href="">4.高级控件的初步了解及学习</a></li>
+					<li><a href="">5.生命周期</a></li>
+				</ul>
+			<div>
+		</li>
+		<li class="col-md-4 col-xs-12">
+			<div class="content border_none title_content">
+				<div class="title title3 text-center">阶段三</div>
+			</div>
+			<div class="content border_none item">
+				<ul class="list-unstyled">
+					<li><a href="">UI进阶</a></li>
+					<li><a href="">1.动画</a></li>
+					<li><a href="">2.手势、触摸事件</a></li>
+					<li><a href="">3.多控制器管理</a></li>
+					<li><a href="">4.综合实战</a></li>
+				</ul>
+			<div>
+		</li>
+		<li class="col-md-4 col-xs-12">
+			<div class="content border_none title_content">
+				<div class="title title4 text-center">阶段四</div>
+			</div>
+			<div class="content border_none item">
+				<ul class="list-unstyled">
+					<li><a href="">网络请求</a></li>
+					<li><a href="">1.网络基础、数据解析</a></li>
+					<li><a href="">2.HTTP请求</a></li>
+					<li><a href="">3.文件上传</a></li>
+					<li><a href="">4.AFNetworking的集成与使用</a></li>
+				</ul>
+			<div>
+		</li>
+		<li class="col-md-4 col-xs-12">
+			<div class="content border_none title_content">
+				<div class="title title5 text-center">阶段五</div>
+			</div>
+			<div class="content border_none item">
+				<ul class="list-unstyled">
+					<li><a href="">知识扩展</a></li>
+					<li><a href="">1.第三方库的手动集成与使用</a></li>
+					<li><a href="">2.CocoaPods的使用</a></li>
+					<li><a href="">3.XMPP知识讲解</a></li>
+					<li><a href="" class="style1">4.数据库的使用<br />（FMDB、CoreData)</a></li>
+					<li><a href="">5.百度地图/高德地图的使用</a></li>
+					<li><a href="">6.二维码的生成与扫描</a></li>
+					<li><a href="" class="style1">7.根据主流APP的功能进行相关<br />知识扩展学习</a></li>
+					<li><a href="">8.Jquery</a></li>
+					<li><a href="">9.MyBatis框架</a></li>
+					<li><a href="">10.SpringMVC框架</a></li>
+					<li><a href="">11.项目实战</a></li>
+				</ul>
+			<div>
+		</li>
+		<li class="col-md-4 col-xs-12">
+			<div class="content border_none title_content">
+				<div class="title title6 text-center">阶段六</div>
+			</div>
+			<div class="content border_none item">
+				<ul class="list-unstyled">
+					<li><a href="">项目阶段</a></li>
+					<li><a href="">1.资讯阅读类</a></li>
+					<li><a href="">2.主流APP模块仿写</a></li>
+					<li><a href="">3.交互展示类APP</a></li>
+					<li><a href="">4.自定义项目</a></li>
+				</ul>
+			<div>
+		</li>
+	</ul>
+</div>
+
+<!-- footer -->
+<div class="footer">
+	<p>南京机蜂科技有限公司  版权所有Copyright 1999-2016, CSDN.NET, All Rights Reserved    苏ICP备16007882</p>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+<!-- <script type="text/javascript" src="js/ios.js"></script> -->
+<script type="text/javascript">
+	$(function(){
+		//选项卡
+	$('.ios_content ul li').click(function(){
+			a();
+			var index = $(this).index();
+			$(this).parents('ul').siblings('.requirement').hide();
+			$(this).parents('ul').siblings('.requirement').eq(index).show();
+			$(this).children('img').attr('src','img/ios_ico' + (index+1) +'_active.png');
+		});
+		
+		function a(){
+			var img = $(".ios_content ul li").find("img");
+			for(var i = 0;i<img.length;i++){
+				img.eq(i).attr('src','img/ios_ico' + (i+1) +'.png');
+			};
+		};
+
+	});
+</script>
+</body>
+</html>
